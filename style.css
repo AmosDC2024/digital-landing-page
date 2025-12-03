@@ -511,7 +511,11 @@ html{
       }  
 
       .hero-image{ 
-        display: none;
+        /* display: none; */ 
+        background-image: url('./assets/images/bg-intro-mobile.svg');
+        background-position: center; 
+        background-size: cover; 
+        background-repeat: no-repeat;
       }
 
       .digitalbank-wrapper{ 
